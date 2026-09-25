@@ -1,27 +1,27 @@
 
 
-// let nombre = prompt ( "Ingrese Nombre")
-// let email = prompt ("Ingrese Email")
+let nombre = prompt ( "Ingrese Nombre")
+let email = prompt ("Ingrese Email")
 
-// console.log(nombre,email)
+console.log(nombre,email)
 
-// nombre = nombre.trim()
+nombre = nombre.trim()
 
-// //validar nombre
-// if (nombre == "" || nombre.length < 3) {
-//     console.log("nombre no valido")
-// }
+//validar nombre
+if (nombre == "" || nombre.length < 3) {
+    console.log("nombre no valido")
+}
 
-// // vañidar email
+// vañidar email
 
 
-// if (email.includes("@") && (email.endsWith(".com") || email.endsWith(".co"))) {
-//     console.log("Email válido");
+if (email.includes("@") && (email.endsWith(".com") || email.endsWith(".co"))) {
+    console.log("Email válido");
 
-// }else {
-//     console.log("email invalido")
-// }
-// nombre = nombre.toUpperCase()
+}else {
+    console.log("email invalido")
+}
+nombre = nombre.toUpperCase()
 
 //Parte 2 tipo de cliente
 const compra = Number(prompt("Ingrese el valor de la compra"));
